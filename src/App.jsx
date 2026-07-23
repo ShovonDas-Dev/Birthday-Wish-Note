@@ -39,21 +39,21 @@ function App() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-gray-900 via-purple-950 to-gray-900 relative overflow-hidden">
-        {/* <ParticleBackground />  */}
+        <ParticleBackground /> 
         {/* Flying hearts */}
-       {/* <FloatingHearts active={showCelebration || isCelebrating} /> */}
+       <FloatingHearts active={showCelebration || isCelebrating} />
        {/* Flying balloons */}
-      {/* <FloatingBalloons active={showCelebration || isCelebrating} /> */}
-      {/* <ConfettiSystem active={showCelebration || isCelebrating} /> */}
+      <FloatingBalloons active={showCelebration || isCelebrating} />
+      <ConfettiSystem active={showCelebration || isCelebrating} />
       <FireworksSystem active={showCelebration || isCelebrating} /> 
       
       <MuteButton isMuted={isMuted} onToggle={toggleMute} />
 
-      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-4">
+      <div className="relative z-100  min-h-screen flex flex-col items-center justify-center p-4">
         {!showScrollContent ? (
           <Envelope onOpen={() => {}} onCelebrate={handleCelebrate} />
         ) : (
-          <div className="w-full max-w-6xl mx-auto">
+          <div className="  w-full max-w-6xl mx-auto">
             <HeroSection />
             <BirthdayWishes />
             <ReasonsSection />

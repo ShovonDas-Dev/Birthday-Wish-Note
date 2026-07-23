@@ -5,9 +5,9 @@ import SectionWrapper from '../ui/SectionWrapper';
 const BirthdayWishes = () => {
   const wishes = [
     { emoji: '💖', text: 'You light up my world every single day.' },
-    { emoji: '✨', text: 'Your smile is my favorite thing to see.' },
+    { emoji: '✨', text: 'You are my peace, my smile, and my happiness.' },
     { emoji: '🌹', text: 'You are the most beautiful soul I know.' },
-    { emoji: '🌟', text: 'Every moment with you is a treasure.' },
+    { emoji: '🌟', text: 'I want to see your dreams come true, and I\'ll always be there to help you achieve them.' },
   ];
 
   return (

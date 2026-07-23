@@ -10,7 +10,7 @@ const LoveMessage = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="bg-gradient-to-br from-rose-500/10 to-pink-500/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/10"
+          className="bg-gradient-to-br from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/10"
         >
           <motion.div
             animate={{ scale: [1, 1.1, 1] }}
@@ -21,9 +21,8 @@ const LoveMessage = () => {
           </motion.div>
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">A Love Letter For You</h3>
           <p className="text-white/70 text-base md:text-lg font-light leading-relaxed">
-            Every day with you feels like a dream I never want to wake up from.
-            Your love has transformed my world, and I'm forever grateful for you.
-            Happy Birthday, my love. You deserve all the happiness in the universe.
+           Every day with you makes me feel lucky. Your love has made my life happier, and I’m so grateful to have you. I want to make you someone who is respected and admired by everyone. Happy Birthday, my love! You deserve all the happiness in the world.
+
           </p>
           <div className="mt-6 flex justify-center gap-2">
             {['❤️', '✨', '🌟', '💫'].map((emoji, i) => (

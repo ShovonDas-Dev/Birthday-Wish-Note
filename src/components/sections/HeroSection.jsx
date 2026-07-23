@@ -29,7 +29,7 @@ const HeroSection = () => {
         transition={{ delay: 0.5 }}
         className="text-3xl md:text-5xl font-bold text-white/90 mt-2"
       >
-        My Love ❤️
+        Pinky ❤️
       </motion.h2>
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
@@ -41,9 +41,9 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9 }}
-        className="text-white/70 text-base md:text-lg font-light max-w-md mx-auto"
+        className="text-white text-base md:text-lg font-light max-w-md mx-auto"
       >
-        Today, the world became a brighter place — because it celebrated the day you were born.
+        Today, the world became a brighter place — because it celebrated the day you were born. 😁
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 20 }}

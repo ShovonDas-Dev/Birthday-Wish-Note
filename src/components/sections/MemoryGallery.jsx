@@ -5,10 +5,10 @@ import SectionWrapper from '../ui/SectionWrapper';
 const MemoryGallery = () => {
   const memories = [
     { emoji: '🌅', label: 'Sunset walks' },
-    { emoji: '🌊', label: 'Beach days' },
-    { emoji: '🎵', label: 'Music nights' },
-    { emoji: '☕', label: 'Coffee dates' },
-    { emoji: '🌺', label: 'Flower fields' },
+    { emoji: '🌊', label: 'Beach Trip Together' },
+    { emoji: '🏔️', label: 'Exploring Kashmir Together' },
+    { emoji: '🌙', label: 'Late-Night Talks Under the Stars' },
+    { emoji: '❤️', label: 'Growing Old Together' },
     { emoji: '🎭', label: 'Theater nights' },
   ];
 
@@ -21,7 +21,7 @@ const MemoryGallery = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-center text-white mb-12"
         >
-          Beautiful Moments <span className="text-amber-400">📸</span>
+          Our Future Together ✨ <span className="text-amber-400">📸</span>
         </motion.h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {memories.map((memory, index) => (
