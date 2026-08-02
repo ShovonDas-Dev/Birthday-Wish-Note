@@ -51,14 +51,14 @@ const Envelope = ({ onCelebrate }) => {
         >
           <div className="w-full h-full flex items-center justify-center relative">
             {!isOpen && (
-              <div className="text-center mt-8">
+              <div className="text-center mb-50 ">
                 <motion.div
                   animate={{ y: [0, -5, 0] }}
                   transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
                 >
                   <div className="text-5xl md:text-6xl mb-2">💌</div>
                   <p className="text-white font-bold text-sm md:text-base tracking-wider drop-shadow-lg">
-                    TAP THE ENVELOPE TO OPEN
+                    TAP 
                   </p>
                 </motion.div>
               </div>

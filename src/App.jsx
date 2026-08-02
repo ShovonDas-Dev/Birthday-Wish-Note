@@ -31,14 +31,10 @@ function App() {
     setTimeout(() => setShowScrollContent(true), 1000);
   };
 
-  const handleCelebrateAgain = () => {
-    setIsCelebrating(false);
-    setTimeout(() => setIsCelebrating(true), 100);
-    setTimeout(() => setIsCelebrating(false), 5000);
-  };
+  
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-gray-900 via-purple-950 to-gray-900 relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-gray-900 via-purple-950 to-gray-900 relative    overflow-hidden">
         <ParticleBackground /> 
         {/* Flying hearts */}
        <FloatingHearts active={showCelebration || isCelebrating} />
@@ -62,7 +58,7 @@ function App() {
             <Timeline />
             <SurpriseSection />
             <FinalMessage />
-            <CelebrateAgainButton onClick={handleCelebrateAgain} />
+            
           </div>
         )}
       </div>
